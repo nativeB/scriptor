@@ -4,11 +4,7 @@ Scriptor — a writing companion for long-form fiction authors using AI in their
 
 **[novelplus-g157.vercel.app](https://novelplus-g157.vercel.app)**
 
-
-
 https://github.com/user-attachments/assets/48520455-1695-4fe4-af46-17382bb90e3d
-
-
 
 All data lives in your browser. No accounts, no cloud sync, no subscriptions.
 
@@ -27,6 +23,7 @@ Scans every chapter against your world bible and flags premature mentions — pl
 
 **AI Revision Panel**
 Highlight any passage in the editor and run one of three actions:
+
 - **Tighten** — cuts redundancy, preserves your voice
 - **Pacing** — identifies where the passage drags or rushes
 - **Sound like this chapter** — rewrites the selection to match a reference chapter's tone
@@ -88,7 +85,7 @@ Open [http://localhost:3000](http://localhost:3000). A demo novel ("The Hollow K
 
 ## How the Consistency Checker Works
 
-Each bible entry can have a `firstIntroducedChapterId`. When you run the checker, it scans every chapter's text with word-boundary regex for each tracked name and alias. If a match appears in a chapter that comes *before* the entry's introduction chapter, it's flagged as a premature mention.
+Each bible entry can have a `firstIntroducedChapterId`. When you run the checker, it scans every chapter's text with word-boundary regex for each tracked name and alias. If a match appears in a chapter that comes _before_ the entry's introduction chapter, it's flagged as a premature mention.
 
 The demo novel ships with two intentional flags in Chapter 3 — "Vaelith" and "The Silver Compact" appear there, but both entries point to Chapter 4 as their introduction. Click **Check Consistency** on Chapter 3 to see it in action.
 
