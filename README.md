@@ -1,6 +1,6 @@
 # Scriptor
 
-A local-first writing companion for long-form fiction authors. Scriptor helps you manage a novel's internal consistency as it grows past what your head can hold — tracking characters, places, factions, and coined terms, then flagging when something appears before it's been introduced.
+Scriptor — a writing companion for long-form fiction authors using AI in their process. Manages chapter structure, world bible, and catches consistency errors before your readers do.
 
 All data lives in your browser. No accounts, no cloud sync, no subscriptions.
 
