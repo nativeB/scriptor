@@ -4,6 +4,8 @@ Scriptor — a writing companion for long-form fiction authors using AI in their
 
 **[novelplus-g157.vercel.app](https://novelplus-g157.vercel.app)**
 
+<!-- DEMO VIDEO: drag and drop your MP4 here in the GitHub editor, then delete this comment -->
+
 All data lives in your browser. No accounts, no cloud sync, no subscriptions.
 
 ---
